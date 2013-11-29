@@ -1,0 +1,409 @@
+Starting on port: 50384
+Connected
+Received options: PitOptions [reportDir=C:\Users\Josiel\workspace\.metadata\.plugins\org.pitest.pitclipse.core\html_results, classUnderTest=null, classesToMutate=[main.*, tests.*], sourceDirs=[C:\Users\Josiel\workspace\Prova_Teste_Final\src], packages=[main.*, tests.*], threads=4, historyLocation=null, excludedClasses=[], excludedMethods=[], avoidCallsTo=[java.util.logging, org.apache.log4j, org.slf4j, org.apache.commons.logging]]
+14:48:36 PIT >> FINE : Running report with ReportOptions [config=org.pitest.extension.common.CompoundConfiguration@1de18380, targetClasses=[^main\..*$, ^tests\..*$], excludedMethods=[], excludedClasses=[], codePaths=[], reportDir=C:\Users\Josiel\workspace\.metadata\.plugins\org.pitest.pitclipse.core\html_results, historyInputLocation=null, historyOutputLocation=null, sourceDirs=[C:\Users\Josiel\workspace\Prova_Teste_Final\src], classPathElements=[C:\Users\Josiel\workspace\Prova_Teste_Final\bin, C:\Users\Josiel\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar, C:\Users\Josiel\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar, C:\Users\Josiel\workspace\Prova_Teste_Final\libs\hamcrest-core-1.3.jar, C:\Users\Josiel\workspace\Prova_Teste_Final\libs\junit-4.11.jar, C:\Users\Josiel\workspace\Prova_Teste_Final\libs\pitest-0.31.jar, C:\Users\Josiel\eclipse\plugins\org.pitest.osgi_0.31.1.201309051729.jar, C:\Users\Josiel\eclipse\plugins\org.pitest.pitclipse-pitrunner_0.31.1.201309051729.jar, C:\Users\Josiel\eclipse\plugins\com.google.guava_12.0.0.v201212092141.jar, C:\Users\Josiel\eclipse\configuration\org.eclipse.osgi\bundles\852\1\.cp\lib\jsr305-2.0.0.jar], mutators=[], dependencyAnalysisMaxDistance=-1, mutateStaticInitializers=false, jvmArgs=[], numberOfThreads=4, timeoutFactor=1.25, timeoutConstant=4000, targetTests=[^main\..*$, ^tests\..*$], loggingClasses=[java.util.logging, org.apache.log4j, org.slf4j, org.apache.commons.logging], maxMutationsPerClass=0, verbose=true, failWhenNoMutations=false, outputs=[HTML, XML], groupConfig=TestGroupConfig [excludedGroups=[], includedGroups=[]], mutationUnitSize=0, shouldCreateTimestampedReports=true, detectInlinedCode=false, exportLineCoverage=false, mutationThreshold=0, mutationEngine=gregor]
+14:48:36 PIT >> FINE : System class path is C:\Users\Josiel\workspace\Prova_Teste_Final\bin;C:\Users\Josiel\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\Users\Josiel\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Josiel\workspace\Prova_Teste_Final\libs\hamcrest-core-1.3.jar;C:\Users\Josiel\workspace\Prova_Teste_Final\libs\junit-4.11.jar;C:\Users\Josiel\workspace\Prova_Teste_Final\libs\pitest-0.31.jar;C:\Users\Josiel\eclipse\plugins\org.pitest.osgi_0.31.1.201309051729.jar;C:\Users\Josiel\eclipse\plugins\org.pitest.pitclipse-pitrunner_0.31.1.201309051729.jar;C:\Users\Josiel\eclipse\plugins\com.google.guava_12.0.0.v201212092141.jar;C:\Users\Josiel\eclipse\configuration\org.eclipse.osgi\bundles\852\1\.cp\lib\jsr305-2.0.0.jar
+14:48:36 PIT >> FINE : Maxmium available memory is 1801 mb
+14:48:36 PIT >> FINE : using port 8092
+14:48:36 PIT >> FINE : SLAVE : Installing PIT agent
+
+14:48:36 PIT >> INFO : Sending 7 test classes to slave
+14:48:36 PIT >> INFO : Sent tests to slave
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Expecting 7 tests classes from parent
+14:48:36 PIT >> FINE : Tests classes received
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> INFO : Found  20 tests
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> INFO : Dependency analysis reduced number of potential tests by 0
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> INFO : 20 tests received
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Running 20 units
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_addMagazine_EC_PW, name=TestCase1(tests.Test_addMagazine_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_addMagazine_EC_PW, name=TestCase2(tests.Test_addMagazine_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_addPaper_EC_PW, name=TestCase1(tests.Test_addPaper_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_addPaper_EC_PW, name=TestCase2(tests.Test_addPaper_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_addPaper_EC_PW, name=TestCase3(tests.Test_addPaper_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_addPaper_EC_PW, name=TestCase4(tests.Test_addPaper_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_down_EC_EC, name=TestCase1(tests.Test_go_down_EC_EC)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_down_EC_EC, name=TestCase2(tests.Test_go_down_EC_EC)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_to_EC_PW, name=TestCase1(tests.Test_go_to_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_to_EC_PW, name=TestCase2(tests.Test_go_to_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_to_EC_PW, name=TestCase3(tests.Test_go_to_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_to_EC_PW, name=TestCase4(tests.Test_go_to_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_to_EC_PW, name=TestCase5(tests.Test_go_to_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_up_EC_EC, name=TestCase1(tests.Test_go_up_EC_EC)]
+14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_go_up_EC_EC, name=TestCase2(test
+14:48:36 PIT >> INFO : SLAVE : s.Test_go_up_EC_EC)]
+14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_query_floor_EC_EC, name=TestCase1(tests.Test_query_floor_EC_EC)]
+14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Tes
+14:48:36 PIT >> INFO : SLAVE : t_remove_EC_PW, name=TestCase1(tests.Test_remove_EC_PW)]
+14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_remove_EC_PW, name=TestCase2(tests.Test_remove_EC_PW)]
+14:48:36 PIT >> FINE : Gathering coverage for test Descri
+14:48:36 PIT >> INFO : SLAVE : ption [testClass=tests.Test_remove_EC_PW, name=TestCase3(tests.Test_remove_EC_PW)]
+14:48:36 PIT >> FINE : Gathering coverage for test Description [testClass=tests.Test_remove_EC_PW, name=TestCase4(tests.Test_remove_EC_PW)]
+
+14:48:36 PIT >> INFO : SLAVE : 14:48:36 PIT >> FINE : Finished
+
+14:48:36 PIT >> INFO : Calculated coverage in 0 seconds.
+14:48:36 PIT >> FINE : Used memory after coverage calculation 20 mb
+14:48:36 PIT >> FINE : Free Memory after coverage calculation 100 mb
+14:48:37 PIT >> INFO : Created  2 mutation test units
+14:48:37 PIT >> FINE : Used memory before analysis start 23 mb
+14:48:37 PIT >> FINE : Free Memory before analysis start 98 mb
+14:48:37 PIT >> FINE : Running 2 units
+14:48:37 PIT >> FINE : using port 8092
+14:48:37 PIT >> FINE : port 8092 is in use
+14:48:37 PIT >> FINE : using port 8093
+stdout  : Installing PIT agent
+stdout  : Installing PIT agent
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Lifstderr  : t.java, block=5, lineNumber=20, description=negated conditional, testsInOrder=[tests.Test_go_to_EC_PW.TestCase1(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase2(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase3(tests.Test_go_to_EC_PW), tesstderr  : ts.Test_go_to_EC_PW.TestCase4(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase5(tests.Test_go_to_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method go_to
+stderr  : 14:48:38 PIT >> FINE : 5 relevant test for go_to
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_go_to_EC_stderr  : PW.TestCase2(tests.Test_go_to_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 124 ms.
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_go_to_EC_PW.TestCase2(tests.Test_go_to_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=query_floor, methodDesc=()I], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Lift.jstderr  : ava, block=8, lineNumber=26, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[tests.Test_query_floor_EC_EC.TestCase1(tests.Test_query_floor_EC_EC)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method query_floor
+stderr  : 14:48:38 PIT >> FINE : 1 relevant test for query_floor
+14:48:38 PIT >> FINE : replaced class with mutant in 16 ms
+14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filstderr  : ename=Paperround.java, block=2, lineNumber=17, description=negated conditional, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCasestderr  : 4(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW), tests.Test_remove_EC_PW.TestCasestderr  : 4(tests.Test_remove_EC_PW)]]
+14:48:38 PIT >> FINE : mutating method addPaper
+14:48:38 PIT >> FINE : 7 relevant test for addPaper
+14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=query_floor, methodDesc=()I], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] detected = KILLED by tests.Test_query_floor_stderr  : EC_EC.TestCase1(tests.Test_query_floor_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 47 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Lift.java, blockstderr  : =4, lineNumber=15, description=Replaced integer subtraction with addition, testsInOrder=[tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=query_floor, methodDesc=()I], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] KILLED by tests.Test_query_floor_EC_EC.TestCase1(tests.Test_query_floor_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : mutating method go_down
+stderr  : 14:48:38 PIT >> FINE : 1 relevant test for go_down
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] detected = KILLED by tests.Test_go_down_EC_EC.TestCase14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] KILLED by tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC)
+stderr  : 2(tests.Test_go_down_EC_EC)
+14:48:38 PIT >> FINE : processed mutation in 17 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Lstderr  : ift.java, block=6, lineNumber=20, description=changed conditional boundary, testsInOrder=[tests.Test_go_to_EC_PW.TestCase1(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase2(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase3(tests.Test_go_to_stderr  : EC_PW), tests.Test_go_to_EC_PW.TestCase4(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase5(tests.Test_go_to_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method go_to
+stderr  : 14:48:38 PIT >> FINE : 5 relevant test for go_to
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Test_go_to_Estderr  : C_PW.TestCase4(tests.Test_go_to_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 15 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Listderr  : ft.java, block=3, lineNumber=14, description=negated conditional, testsInOrder=[tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC), tests.Test_go_down_EC_EC.TestCase1(tests.Test_go_down_EC_EC)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_go_to_EC_PW.TestCase4(tests.Test_go_to_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : mutating method go_down
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : 2 relevant test for go_down
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_stderr  : addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 141 ms.
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=getMagazines, methodDesc=()Ljava/util/List;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutstderr  : ator], filename=Paperround.java, block=18, lineNumber=57, description=mutated return of Object value for main/Paperround::getMagazines to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[tests.Test_addMagazine_EC_PW.TestCase2(tests.Testderr  : st_addMagazine_EC_PW), tests.Test_remove_EC_PW.TestCase2(tests.Test_remove_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_go_down_stderr  : EC_EC.TestCase2(tests.Test_go_down_EC_EC)
+14:48:38 PIT >> FINE : processed mutation in 17 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[0],stderr  :  mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Lift.java, block=5, lineNumber=20, description=changed conditional boundary, testsInOrder=[tests.Test_go_to_EC_PW.TestCase1(tests.Test_go_to_EC_PW), tests.Test_gstderr  : o_to_EC_PW.TestCase2(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase3(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase4(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase5(tests.Test_go_to_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method go_to
+stderr  : 14:48:38 PIT >> FINE : 5 relevant test for go_to
+stderr  : 14:48:38 PIT >> FINE : mutating method getMagazines
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : 3 relevant test for getMagazines
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=getMagazines, methodDesc=()Ljava/util/List;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=getMagazines, methodDesc=()Ljava/util/List;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] detected = KILLED by tstderr  : ests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 17 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPastderr  : per, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=Paperround.java, block=10, lineNumber=29, description=Changed increment from 1 to -1, testsInOrder=[tests.Test_addMagazine_EC_PW.TestCasstderr  : e2(tests.Test_addMagazine_EC_PW), tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : mutating method hasPaper
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Test_go_to_Estderr  : C_PW.TestCase5(tests.Test_go_to_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 16 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Liftstderr  : .java, block=1, lineNumber=8, description=negated conditional, testsInOrder=[tests.Test_go_up_EC_EC.TestCase1(tests.Test_go_up_EC_EC), tests.Test_go_up_EC_EC.TestCase2(tests.Test_go_up_EC_EC)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_go_to_EC_PW.TestCase5(tests.Test_go_to_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for hasPaper
+stderr  : 14:48:38 PIT >> FINE : mutating method go_up
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : 2 relevant test for go_up
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator] detected = KILLED by tests.Test_addPaperstderr  : _EC_PW.TestCase1(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 15 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Pastderr  : perround.java, block=11, lineNumber=34, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW), tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_ECstderr  : _PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method hasPaper
+stderr  : 14:48:38 PIT >> FINE : 3 relevant test for hasPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_go_up_EC_Estderr  : C.TestCase1(tests.Test_go_up_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 31 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=stderr  : Lift.java, block=3, lineNumber=14, description=changed conditional boundary, testsInOrder=[tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC), tests.Test_go_down_EC_EC.TestCase1(tests.Test_go_down_EC_EC)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_go_up_EC_EC.TestCase1(tests.Test_go_up_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : mutating method go_down
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] detected = KILLED by tests.Test_addMagazstderr  : ine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 16 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], fstderr  : ilename=Paperround.java, block=3, lineNumber=17, description=changed conditional boundary, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_stderr  : PW.TestCase4(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW), tests.Test_remove_EC_stderr  : PW.TestCase4(tests.Test_remove_EC_PW)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : 2 relevant test for go_down
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 15 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : mutating method addPaper
+stderr  : 14:48:38 PIT >> FINE : 7 relevant test for addPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Test_go_dowstderr  : n_EC_EC.TestCase1(tests.Test_go_down_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 31 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Lift.java, block=2stderr  : , lineNumber=9, description=Replaced integer addition with subtraction, testsInOrder=[tests.Test_go_up_EC_EC.TestCase1(tests.Test_go_up_EC_EC)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_down, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_go_down_EC_EC.TestCase1(tests.Test_go_down_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : mutating method go_up
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : 1 relevant test for go_up
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] KILLED by tests.Test_go_up_EC_EC.TestCase1(tests.Test_go_up_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Tesstderr  : t_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 47 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addMagazine, methodstderr  : Desc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Paperround.java, block=5, lineNumber=23, description=negated conditional, testsInOrder=[tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_astderr  : ddMagazine_EC_PW), tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+14:48:38 PIT >> FINE : mutating methostderr  : d addMagazine
+14:48:38 PIT >> FINE : 4 relevant test for addMagazine
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] detected = KILLED by tests.Test_go_up_EC_EC.TestCase1(testderr  : sts.Test_go_up_EC_EC)
+14:48:38 PIT >> FINE : processed mutation in 0 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mstderr  : utationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Lift.java, block=6, lineNumber=20, description=negated conditional, testsInOrder=[tests.Test_go_to_EC_PW.TestCase1(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase2(tests.Test_stderr  : go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase3(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase4(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase5(tests.Test_go_to_EC_PW)]]
+14:48:38 PIT >> FINE : mutating method go_to
+14:48:38 PIT >> FINEstderr  :  : 5 relevant test for go_to
+14:48:38 PIT >> FINE : replaced class with mutant in 15 ms
+14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addMagazine, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addMagazine, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Testderr  : st_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 15 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, mestderr  : thodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Paperround.java, block=2, lineNumber=17, description=changed conditional boundary, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(stderr  : tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(teststderr  : s.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_go_to_EC_stderr  : PW.TestCase2(tests.Test_go_to_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 47 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Listderr  : ft.java, block=1, lineNumber=8, description=changed conditional boundary, testsInOrder=[tests.Test_go_up_EC_EC.TestCase1(tests.Test_go_up_EC_EC), tests.Test_go_up_EC_EC.TestCase2(tests.Test_go_up_EC_EC)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method go_up
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_to, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_go_to_EC_PW.TestCase2(tests.Test_go_to_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : mutating method addPaper
+stderr  : 14:48:38 PIT >> FINE : 7 relevant test for addPaper
+14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : 2 relevant test for go_up
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Tesstderr  : t_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 15 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], fstderr  : ilename=Paperround.java, block=10, lineNumber=29, description=changed conditional boundary, testsInOrder=[tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW), tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPastderr  : per_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Test_go_up_ECstderr  : _EC.TestCase2(tests.Test_go_up_EC_EC)
+14:48:38 PIT >> FINE : processed mutation in 15 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Lift, method=getFloor, methodDesc=()I], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Lift.javastderr  : , block=10, lineNumber=34, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC), tests.Test_go_to_EC_PW.TestCase1(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_Pstderr  : W.TestCase2(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase3(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase4(tests.Test_go_to_EC_PW), tests.Test_go_to_EC_PW.TestCase5(tests.Test_go_to_EC_PW), tests.Test_go_up_EC_EC.TestCase1(tests.Test_gstderr  : o_up_EC_EC), tests.Test_go_up_EC_EC.TestCase2(tests.Test_go_up_EC_EC), tests.Test_go_down_EC_EC.TestCase1(tests.Test_go_down_EC_EC)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW)
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=go_up, methodDesc=()V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_go_up_EC_EC.TestCase2(tests.Test_go_up_EC_EC)
+stderr  : 14:48:38 PIT >> FINE : mutating method getFloor
+stderr  : 14:48:38 PIT >> FINE : 9 relevant test for getFloor
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : mutating method hasPaper
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for hasPaper
+14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Lift, method=getFloor, methodDesc=()I], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] detected = KILLED by tests.Test_go_down_EC_EC.Tstderr  : estCase2(tests.Test_go_down_EC_EC)
+14:48:38 PIT >> FINE : processed mutation in 16 ms.
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Lift, method=getFloor, methodDesc=()I], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] KILLED by tests.Test_go_down_EC_EC.TestCase2(tests.Test_go_down_EC_EC)
+14:48:38 PIT >> FINE : Exit code was - OK
+14:48:38 PIT >> FINE : Slave exited ok
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Tesstderr  : t_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 47 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, metstderr  : hodDesc=(I)Z], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Paperround.java, block=10, lineNumber=29, description=negated conditional, testsInOrder=[tests.Test_addMagazine_EC_PW.TestCase2(tests.Testderr  : st_addMagazine_EC_PW), tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : mutating method hasPaper
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for hasPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_stderr  : addMagazine_EC_PW.TestCase2(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 16 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filstderr  : ename=Paperround.java, block=12, lineNumber=38, description=changed conditional boundary, testsInOrder=[tests.Test_remove_EC_PW.TestCase1(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase2(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCasestderr  : 3(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method remove
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for remove
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Test_stderr  : remove_EC_PW.TestCase3(tests.Test_remove_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 31 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V],stderr  :  indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Paperround.java, block=13, lineNumber=38, description=changed conditional boundary, testsInOrder=[tests.Test_remove_EC_PW.TestCase1(tests.Test_removstderr  : e_EC_PW), tests.Test_remove_EC_PW.TestCase2(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method remove
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for remove
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Test_stderr  : remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 31 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=getPapers, methodDesc=()Lstderr  : java/util/List;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Paperround.java, block=17, lineNumber=53, description=mutated return of Object value for main/Paperround::getPapers to ( if (x != null) null stderr  : else throw new RuntimeException ), testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW), tests.Test_remostderr  : ve_EC_PW.TestCase2(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method getPapers
+stderr  : 14:48:38 PIT >> FINE : 7 relevant test for getPapers
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=getPapers, methodDesc=()Ljava/util/List;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] detected = KILLED by teststderr  : s.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 0 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filenstderr  : ame=Paperround.java, block=13, lineNumber=38, description=negated conditional, testsInOrder=[tests.Test_remove_EC_PW.TestCase1(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase2(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Tesstderr  : t_remove_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=getPapers, methodDesc=()Ljava/util/List;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : mutating method remove
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for remove
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_restderr  : move_EC_PW.TestCase3(tests.Test_remove_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 16 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=Pastderr  : perround.java, block=9, lineNumber=31, description=replaced return of integer sized value with (x == 0 ? 1 : 0), testsInOrder=[tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : mutating method hasPaper
+stderr  : 14:48:38 PIT >> FINE : 1 relevant test for hasPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] detected = KILLED by tests.Test_addMagazstderr  : ine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 15 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(Istderr  : )V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Paperround.java, block=3, lineNumber=17, description=negated conditional, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_ECstderr  : _PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW)stderr  : , tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : mutating method addPaper
+stderr  : 14:48:38 PIT >> FINE : 7 relevant test for addPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_stderr  : addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 47 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], fstderr  : ilename=Paperround.java, block=1, lineNumber=17, description=changed conditional boundary, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_stderr  : PW.TestCase4(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW), tests.Test_remove_EC_stderr  : PW.TestCase4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method addPaper
+stderr  : 14:48:38 PIT >> FINE : 7 relevant test for addPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 16 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW)
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = KILLED by tests.Tesstderr  : t_addPaper_EC_PW.TestCase4(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 109 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filstderr  : ename=Paperround.java, block=1, lineNumber=17, description=negated conditional, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCase3(tests.Test_addPaper_EC_PW), tests.Test_addPaper_EC_PW.TestCasestderr  : 4(tests.Test_addPaper_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW), tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW), tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW), tests.Test_remove_EC_PW.TestCasestderr  : 4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method addPaper
+stderr  : 14:48:38 PIT >> FINE : 7 relevant test for addPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=addPaper, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_stderr  : addPaper_EC_PW.TestCase2(tests.Test_addPaper_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : processed mutation in 16 ms.
+stderr  : 14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filenstderr  : ame=Paperround.java, block=12, lineNumber=38, description=negated conditional, testsInOrder=[tests.Test_remove_EC_PW.TestCase1(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase2(tests.Test_remove_EC_PW), tests.Test_remove_EC_PW.TestCase3(tests.Tesstderr  : t_remove_EC_PW), tests.Test_remove_EC_PW.TestCase4(tests.Test_remove_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method remove
+stderr  : 14:48:38 PIT >> FINE : 4 relevant test for remove
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_remove_EC_PW.TestCase3(tests.Test_remove_EC_PW)
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=remove, methodDesc=(I)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_restderr  : move_EC_PW.TestCase3(tests.Test_remove_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 15 ms.
+14:48:38 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z],stderr  :  indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Paperround.java, block=8, lineNumber=30, description=negated conditional, testsInOrder=[tests.Test_addPaper_EC_PW.TestCase1(tests.Test_addPaper_EC_PW)stderr  : , tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)]]
+stderr  : 14:48:38 PIT >> FINE : mutating method hasPaper
+stderr  : 14:48:38 PIT >> FINE : 2 relevant test for hasPaper
+stderr  : 14:48:38 PIT >> FINE : replaced class with mutant in 0 ms
+stderr  : 14:48:38 PIT >> FINE : Running 1 units
+stderr  : 14:48:38 PIT >> FINE : Finished
+stderr  : 14:48:38 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by tests.Test_stderr  : addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)
+14:48:38 PIT >> FINE : processed mutation in 16 ms.
+14:48:38 PIT >> FINE : MutationIdentifier [location=Location [clazz=main.Paperround, method=hasPaper, methodDesc=(I)Z], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by tests.Test_addMagazine_EC_PW.TestCase1(tests.Test_addMagazine_EC_PW)
+14:48:38 PIT >> FINE : Exit code was - OK
+14:48:38 PIT >> FINE : Slave exited ok
+14:48:38 PIT >> FINE : Finished
+14:48:38 PIT >> INFO : Completed in 2 seconds
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : < 1 second
+> build mutation tests : < 1 second
+> run mutation analysis : 1 seconds
+--------------------------------------------------------------------------------
+> Total  : 2 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 31 mutations Killed 31 (100%)
+>> Ran 61 tests (1.97 tests per mutation)
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.MathMutator
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 10 Killed 10 (100%)
+> KILLED 10 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 12 Killed 12 (100%)
+> KILLED 12 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+Sending results: PitResults [htmlResultFile=C:\Users\Josiel\workspace\.metadata\.plugins\org.pitest.pitclipse.core\html_results\201311291448\index.html, xmlResultFile=C:\Users\Josiel\workspace\.metadata\.plugins\org.pitest.pitclipse.core\html_results\201311291448\mutations.xml]
+Closing server
+Closed
